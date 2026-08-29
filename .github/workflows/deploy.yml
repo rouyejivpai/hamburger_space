@@ -33,7 +33,7 @@ jobs:
       - name: Build static export
         run: yarn export
         env:
-          NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}
+          NOTION_PAGE_ID: d2072d0b38a683618d2981abd6a61ca5
           NEXT_PUBLIC_SUB_PATH: /hamburger_space
           NEXT_PUBLIC_LINK: https://rouyejivpai.github.io/hamburger_space
           API_BASE_URL: https://app.notion.com/api/v3
