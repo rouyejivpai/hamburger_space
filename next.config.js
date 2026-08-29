@@ -194,6 +194,8 @@ function getOutput() {
 }
 
 const nextConfig = {
+  basePath: process.env.NEXT_PUBLIC_SUB_PATH || undefined,
+  assetPrefix: process.env.NEXT_PUBLIC_SUB_PATH || undefined,
   eslint: {
     ignoreDuringBuilds: true
   },
