@@ -36,6 +36,7 @@ jobs:
           NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}
           NEXT_PUBLIC_SUB_PATH: /hamburger_space
           NEXT_PUBLIC_LINK: https://rouyejivpai.github.io/hamburger_space
+          API_BASE_URL: https://app.notion.com/api/v3
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
